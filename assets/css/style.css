@@ -250,13 +250,13 @@ button {
 .hero-inner {
   position: relative;
   z-index: 1;
-  width: min(1600px, calc(100% - 64px));
+  /* width: min(1600px, calc(100% - 64px)); */
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(520px, 0.9fr) minmax(760px, 1.1fr);
   gap: 56px;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 
 .hero-copy {
@@ -1653,14 +1653,21 @@ template {
 
   .hero {
     min-height: auto;
-    padding-top: 104px;
+    padding-top: 67px;
   }
 
   .hero-inner {
-    gap: 28px;
-    width: min(100% - 28px, 100%);
-    grid-template-columns: 1fr;
+    bottom: -27px;
+    gap: 0;
+    /* grid-template-columns: 1fr; */
+    
   }
+  .hero-video {
+    position: inherit;
+    height: 600px;
+    object-fit: none;
+    /* opacity: 0.08; */
+}
 
   .hero-copy {
     max-width: 100%;
@@ -1740,5 +1747,8 @@ template {
     bottom: 10px;
     font-size: 0.84rem;
     padding: 7px 12px;
+  }
+  .scroll-indicator{
+    display: none;
   }
 }
