@@ -73,7 +73,7 @@ button {
   padding: 8px 14px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  color: #111827;
+  color: #ffffff;
   font-size: 0.875rem;
   letter-spacing: 0.02em;
   background: linear-gradient(135deg, #008bfd, #2ec5f4);
@@ -342,7 +342,7 @@ button {
 
 .btn-primary {
   background: linear-gradient(135deg, #008bfd, #2ec5f4);
-  color: #0d2a22;
+  color: #ffffff;
   font-weight: 700;
   box-shadow: 0 14px 30px rgba(50, 199, 161, 0.18);
 }
@@ -353,10 +353,11 @@ button {
 
 .btn-secondary {
   background: linear-gradient(135deg, #bec732, #ff5892);
-  color: var(--text);
+  color: white;
   border: 1px solid rgba(17, 24, 39, 0.08);
   backdrop-filter: blur(12px);
 }
+
 
 .hero-visual {
   position: relative;
