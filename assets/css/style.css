@@ -63,7 +63,7 @@ button {
 }
 
 .section {
-  background: linear-gradient(to right, #ff9a9e35, #ffd9c335, #feada635);
+  background: linear-gradient(to right, #ff9a9e50, #ffd9c340, #feada650);
 }
 
 .eyebrow {
@@ -155,7 +155,7 @@ button {
   align-items: center;
   color: var(--text-muted);
   font-size: 0.95rem;
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .nav-links a {
@@ -357,7 +357,6 @@ button {
   border: 1px solid rgba(17, 24, 39, 0.08);
   backdrop-filter: blur(12px);
 }
-
 
 .hero-visual {
   position: relative;
@@ -613,13 +612,12 @@ button {
 .skills img {
   width: 36px;
   height: 36px;
-  opacity: 0.9;
 }
 
 .skill-group {
   padding: 18px;
   border-radius: var(--radius-md);
-  background: rgba(230, 245, 255, 0.9);
+  background: rgba(95, 191, 255, 0.9);
   border: 1px solid rgba(17, 24, 39, 0.06);
 }
 
@@ -702,6 +700,59 @@ button {
   margin: 0;
   color: var(--text-muted);
 }
+
+/* 브랜드별 색상 start */
+/* 이 부분을 지우면 포트폴리오 메인 컬러를 사용하실 수 있습니다. */
+.brand1_color h3 {
+  color: #41301e;
+}
+
+.brand1_color .tag a {
+  background-color: #41301e;
+  color: #fff;
+}
+
+.brand1_color .tag a:hover {
+  background-color: #a64f30;
+  color: #fff;
+}
+
+.brand1_color .point-color a {
+  background-color: #a64f30;
+  color: #fff;
+}
+
+.brand1_color .point-color a:hover {
+  background-color: #7b7a2d;
+  color: #fff;
+}
+
+.brand2_color h3 {
+  color: #1e3464;
+}
+
+.brand2_color .tag a {
+  background-color: #f15c45;
+  color: #fff;
+}
+
+.brand2_color .tag a:hover {
+  background-color: #f6bc3b;
+  color: #fff;
+}
+
+.brand2_color .point-color a {
+  background-color: #f6bc3b;
+  color: #fff;
+}
+
+.brand2_color .point-color a:hover {
+  background-color: #1e3464;
+  color: #fff;
+}
+
+/* 브랜드별 색상 end */
+
 
 .brand-meta {
   display: flex;
@@ -1661,14 +1712,15 @@ template {
     bottom: -27px;
     gap: 0;
     /* grid-template-columns: 1fr; */
-    
+
   }
+
   .hero-video {
     position: inherit;
     height: 600px;
     object-fit: none;
     /* opacity: 0.08; */
-}
+  }
 
   .hero-copy {
     max-width: 100%;
@@ -1749,7 +1801,8 @@ template {
     font-size: 0.84rem;
     padding: 7px 12px;
   }
-  .scroll-indicator{
+
+  .scroll-indicator {
     display: none;
   }
 }
